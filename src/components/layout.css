@@ -185,7 +185,9 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  /*font: 112.5%/1.45em georgia, serif;*/
+  font-size: 62.5%;
+  font-family: georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -234,7 +236,7 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 5.5rem;
   line-height: 1.1;
 }
 h2 {
@@ -385,6 +387,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-size: 1.5rem;
 }
 figure {
   margin-left: 0;
