@@ -9,11 +9,14 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
+import "./bootstrap.min.css"
 import "./layout.css"
+import NavBar from "./Globals/Navbar.js"
 
 const Layout = ({ children }) => (
   <React.Fragment>
-      {children}
+    <NavBar />
+    {children}
   </React.Fragment>
 )
 
