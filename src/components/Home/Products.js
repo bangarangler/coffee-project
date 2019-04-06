@@ -23,7 +23,7 @@ const getProducts = graphql`
   }
 `
 
-function Products({}) {
+function Products() {
   return (
     <StaticQuery
       query={getProducts}
